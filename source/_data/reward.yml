@@ -1,0 +1,15 @@
+- class_name: 赞赏
+  reward_list:
+    #- name: 鹿啵包
+   #   amount: 10
+    #  datatime: 2022-11-08
+     - name: x
+       amount: 10
+       datatime: 2022-11-08
+     - name: xx
+       amount: 50
+       datatime: 2022-09-20
+     - name: xxx
+       amount: 4.03
+       datatime: 2022-10-27
+       suffix: 贝壳
