@@ -320,13 +320,6 @@ valine:
   bg: # valine background
   enableQQ: true
   visitor: true
-  master: # md5加密后的博主邮箱
-       - 9ff51683f000a44ef14194130da4134f
-       - 81f166d4702b8723039379b044d195bd #可添加多个
-  friends: # md5加密后的小伙伴邮箱
-      # - 5c?????bfe6rfc72a????e268ad3819c #可添加多个
-      # - 7c?????bfe65fc02a????e2????3919c
-  tagMeta: '博主,小伙伴,访客' # 标签要显示的文字,默认'博主,小伙伴,访客'
   option:
 
 # waline - A simple comment system with backend support fork from Valine
@@ -443,7 +436,7 @@ footer:
   owner:
     enable: true
     since: 2019
-  custom_text: hi,欢迎来到INJU银烛的博客！<br><script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/JwRe7glVmuP1f6UP/quote.js?theme=#B880F5,#333333,#999999,#333333,#FFFFFF,#B880F5,14&f=14"></script>
+  custom_text: hi,欢迎来到INJU银烛的博客！<br><div id="runtime"></div><br><script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/JwRe7glVmuP1f6UP/quote.js?theme=#B880F5,#333333,#999999,#333333,#FFFFFF,#B880F5,14&f=14"></script>
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -904,6 +897,7 @@ inject:
     - <meta name="google-site-verification" content="j1Nnl2GbspguiuFs9hc0rSV38PD7x_IJSBRDrce98gA" />
     - <meta name="msvalidate.01" content="CA7FCAB2D3C608F79202DD0E9BE7B661" />
     - <link rel="stylesheet" href="/css/font/font.css">
+    - <link rel="stylesheet" href="/css/diy.css?1">
       # - <link rel="stylesheet" href="/xxx.css">
     
   bottom:
@@ -914,6 +908,7 @@ inject:
      - <script>LA.init({id:"JwRe7glVmuP1f6UP",ck:"JwRe7glVmuP1f6UP"})</script>
      - <script> LA.init({id:"{JwRe7glVmuP1f6UP}",ck:"{JwRe7glVmuP1f6UP}"})</script>
      - <script>new LingQue.Monitor().init({id:"JwRe7glVmuP1f6UP",sendSuspicious:true});</script>
+     - <script src="/js/diy.js?1"></script>
     # - <script src="xxxx"></script>
 
 # CDN

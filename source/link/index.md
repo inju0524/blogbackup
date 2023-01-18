@@ -4,7 +4,7 @@ date: 2022-12-30 10:55:09
 type: "link"
 ---
 # 互相交换友链吗？
-下面这是我的网站信息
+下面是我的网站信息
 ```
   name: INJU银烛
   link: https://inju.eu.org/
