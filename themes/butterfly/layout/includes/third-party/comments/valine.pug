@@ -13,6 +13,9 @@ script.
         serverURLs: '#{theme.valine.serverURLs}',
         emojiMaps: !{emojiMaps},
         path: window.location.pathname,
+		master: '#{theme.valine.master}'.split(','),
+        friends: '#{theme.valine.friends}'.split(','),
+        tagMeta: '#{theme.valine.tagMeta || "博主,小伙伴,访客"}'.split(','),
         visitor: #{theme.valine.visitor}
       }, !{JSON.stringify(theme.valine.option)}))
     }

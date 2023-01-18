@@ -320,6 +320,13 @@ valine:
   bg: # valine background
   enableQQ: true
   visitor: true
+  master: # md5加密后的博主邮箱
+       - 9ff51683f000a44ef14194130da4134f
+       - 81f166d4702b8723039379b044d195bd #可添加多个
+  friends: # md5加密后的小伙伴邮箱
+      # - 5c?????bfe6rfc72a????e268ad3819c #可添加多个
+      # - 7c?????bfe65fc02a????e2????3919c
+  tagMeta: '博主,小伙伴,访客' # 标签要显示的文字,默认'博主,小伙伴,访客'
   option:
 
 # waline - A simple comment system with backend support fork from Valine
