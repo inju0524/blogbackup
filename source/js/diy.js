@@ -30,8 +30,9 @@ setInterval(() => {
     }
     let currentTimeHtml = ""
     if (time[0] != 0) {
-        currentTimeHtml += time[0] + ' YEAR '
+        currentTimeHtml += time[0] + ' 年 ';
     }
-    currentTimeHtml += time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4];
-    document.getElementById("runtime").innerHTML = currentTimeHtml;
+    currentTimeHtml += time[1] + ' 天 ' + time[2] + ' : ' + time[3] + ' : ' + time[4];
+	zhongzhuan = ' 小破站已经运行了 ' + currentTimeHtml;
+    document.getElementById("runtime").innerHTML = zhongzhuan;
 }, 1000);
