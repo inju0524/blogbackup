@@ -8,6 +8,7 @@ top_img: img/baizhu.png
 cover: img/baizhu.png
 abbrlink: 9edfe7ae
 date: 2019-09-13 18:52:18
+swiper_index: 1
 ---
 诸君快乐！
 今天给各位介绍一款linux终端模拟器

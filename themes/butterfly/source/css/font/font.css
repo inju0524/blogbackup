@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'biaotifont';
+    font-display: swap;
+    src: url('/fonts/REEJI-CHAO-BeiMingGBT-Flash.ttf') format("truetype");
+  }
+  .article-title {
+    font-family: 'biaotifont';
+  }

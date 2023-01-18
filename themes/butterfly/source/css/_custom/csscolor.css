@@ -39,7 +39,7 @@
 }
 
 [data-theme="light"] {
-  --anzhiyu-theme: #6200ed;
+  --anzhiyu-theme: #d5bcf8;
   --anzhiyu-theme-deep: #1856fb;
   --anzhiyu-theme-op: #4259ef23;
   --anzhiyu-blue: #3b70fc;
@@ -65,10 +65,13 @@
   --anzhiyu-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
   --anzhiyu-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
   --anzhiyu-card-border: #e3e8f7;
+  --sidebar-bg:var(--anzhiyu-theme);
+  --cfont-bg:rgb(247, 223, 253);
 }
 
 [data-theme="dark"] {
-  --global-bg: #191919;
+  --global-bg: #5319a3;
+  --sidebar-bg:#300074;
   --anzhiyu-theme: #0084ff;
   --anzhiyu-theme-deep: #0076e5;
   --anzhiyu-theme-op: #0084ff23;
@@ -95,4 +98,5 @@
   --anzhiyu-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
   --anzhiyu-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
   --anzhiyu-card-border: #42444a;
+  --cfont-bg:#535353;
 }

@@ -5,7 +5,7 @@ if theme.aside.card_author.enable
         img(src=url_for(theme.avatar.img) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt="avatar")
       .author-info__name= config.author
       .author-info__description!= theme.aside.card_author.description || config.description
-    p.p.center.small 人生一世，草木一春，来如风雨，去似微尘🌊
+    p.p.center.small(class='cesmall') 人生一世，草木一春，来如风雨，去似微尘🌊
     .card-info-data.site-data.is-center
       a(href=url_for(config.archive_dir) + '/')
         .headline= _p('aside.articles')
