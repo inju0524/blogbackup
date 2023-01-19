@@ -304,3 +304,13 @@ width: auto;
   opacity: .8;
   background-color: #6200ed;
 }
+
+.wl-card-item {
+    border: 3px solid #6200ed;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    background: var(--inju-cmbg);
+}
+
+
+

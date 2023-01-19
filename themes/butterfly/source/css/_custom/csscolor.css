@@ -67,6 +67,7 @@
   --anzhiyu-card-border: #e3e8f7;
   --sidebar-bg:var(--anzhiyu-theme);
   --cfont-bg:rgb(247, 223, 253);
+  --inju-cmbg:##f8ebf9；
 }
 
 [data-theme="dark"] {
@@ -99,4 +100,5 @@
   --anzhiyu-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
   --anzhiyu-card-border: #42444a;
   --cfont-bg:#535353;
+    --inju-cmbg:#0e0e0e；
 }
