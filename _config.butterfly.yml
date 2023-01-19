@@ -273,7 +273,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
-  use: Valine
+  use: Waline,Valine
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -313,10 +313,10 @@ gitalk:
 # valine
 # https://valine.js.org
 valine:
-  appId: LcB6PsOGeeuNZhJH7ZNJSato-MdYXbMMI # leancloud application app id
-  appKey: dK2uOWe8X15aZ3Sth97s8uoF # leancloud application app key
+  appId: TNIRc9ObIpxr1eae45JS9hJs-gzGzoHsz # leancloud application app id
+  appKey: vxJo4XIuVbTgOwcv5XM0TCYb # leancloud application app key
   avatar: mp # gravatar style https://valine.js.org/#/avatar
-  serverURLs: https://lcb6psog.api.lncldglobal.com # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+  serverURLs: https://tnirc9ob.lc-cn-n1-shared.com # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: # valine background
   enableQQ: true
   visitor: true
@@ -325,7 +325,7 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: # Waline server address url
+  serverURL: https://pinglun.cnmtx.top # Waline server address url
   bg: # waline background
   pageview: false
   option:
@@ -726,8 +726,8 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 2017/9/6 10:24:57
 
 # Aside widget - Newest Comments
 newest_comments:
@@ -750,9 +750,9 @@ translate:
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese
-  msgToTraditionalChinese: '繁'
+  msgToTraditionalChinese: '简'
   # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: '簡'
+  msgToSimplifiedChinese: '繁'
 
 # Read Mode (閲讀模式)
 readmode: true
