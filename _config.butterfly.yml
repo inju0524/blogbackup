@@ -896,8 +896,11 @@ inject:
   head:
     - <meta name="google-site-verification" content="j1Nnl2GbspguiuFs9hc0rSV38PD7x_IJSBRDrce98gA" />
     - <meta name="msvalidate.01" content="CA7FCAB2D3C608F79202DD0E9BE7B661" />
+    - <meta name="baidu-site-verification" content="codeva-lR7FGjvGCO" />
     - <link rel="stylesheet" href="/css/font/font.css">
     - <link rel="stylesheet" href="/css/diy.css?1">
+    - <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5541099564488810"
+     crossorigin="anonymous"></script>
       # - <link rel="stylesheet" href="/xxx.css">
     
   bottom:
