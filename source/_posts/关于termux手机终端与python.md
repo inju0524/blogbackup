@@ -87,6 +87,6 @@ vim test.py
 Python test.py
 ```
 下面就会有程序编译的结果了
-![termux](img/termux.jpg)
+![termux](https://npm.elemecdn.com/inju-tuku@1.0.4/img/termux.jpg)
 呼～～～～写完了
 此教程送给一窍不通又不好好自学的小白们，所以比较啰嗦，见谅。

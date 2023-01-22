@@ -7,8 +7,8 @@ type: "link"
 下面是我的网站信息
 ```
   name: INJU银烛
-  link: https://inju.eu.org/
-  avatar: https://inju0524.github.io/img/head.png
+  link: https://inju.top
+  avatar: https://npm.elemecdn.com/inju-tuku@1.0.4/img/head.png
   descr: 海纳百川，有容乃大
   ```
 请您添加我的友链后，在下方评论留言您的网站信息，格式：
