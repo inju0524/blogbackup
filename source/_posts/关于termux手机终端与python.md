@@ -4,8 +4,8 @@ tags:
   - termux
   - 技术
   - 手机终端
-top_img: img/baizhu.png
-cover: img/baizhu.png
+top_img: https://npm.elemecdn.com/inju-tuku@1.0.3/img/baizhu.png
+cover: https://npm.elemecdn.com/inju-tuku@1.0.3/img/baizhu.png
 abbrlink: 9edfe7ae
 date: 2019-09-13 18:52:18
 swiper_index: 1

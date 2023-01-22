@@ -335,7 +335,7 @@
   }
   
   .author-content-item.map {
-    background: url(/img/aboutmap.jpg) no-repeat center;
+    background: url(https://npm.elemecdn.com/inju-tuku@1.0.3/img/aboutmap.jpg) no-repeat center;
     min-height: 160px;
     max-height: 400px;
     position: relative;
@@ -346,7 +346,7 @@
     transition: 1s ease-in-out;
   }
   [data-theme="dark"] .author-content-item.map {
-    background: url(/img/aboutmap.jpg) no-repeat center;
+    background: url(https://npm.elemecdn.com/inju-tuku@1.0.3/img/aboutmap.jpg) no-repeat center;
     background-size: 100%;
   }
   
@@ -646,7 +646,7 @@
     transition: 2s ease-in-out;
   }
   .author-content-item.game-yuanshen {
-    background: url(/img/aboutGenshin.png) no-repeat top;
+    background: url(https://npm.elemecdn.com/inju-tuku@1.0.3/img/aboutGenshin.png) no-repeat top;
     background-size: cover;
     min-height: 300px;
     overflow: hidden;
@@ -685,7 +685,7 @@
   
   .author-content-item.comic-content {
     width: 39%;
-    background: url(/img/fanju.jpg) no-repeat top;
+    background: url(https://npm.elemecdn.com/inju-tuku@1.0.3/img/fanju.jpg) no-repeat top;
     background-size: cover;
     min-height: 300px;
     overflow: hidden;
@@ -702,14 +702,14 @@
   }
   
   .author-content-item.like-technology {
-    background: url(/img/abouttech.gif) no-repeat;
+    background: url(https://npm.elemecdn.com/inju-tuku@1.0.3/img/abouttech.gif) no-repeat;
     background-size: cover;
     min-height: 230px;
     color: var(--anzhiyu-white);
   }
   
   .author-content-item.like-music {
-    background: url(/img/aboutmusic.jpg) no-repeat top;
+    background: url(https://npm.elemecdn.com/inju-tuku@1.0.3/img/aboutmusic.jpg) no-repeat top;
     background-size: cover;
     min-height: 400px;
     color: var(--anzhiyu-white);
